@@ -11,40 +11,136 @@
             display: flex;
             justify-content: center;
             align-items: center;
+    
         }
         .box{
-            height: 500px;
-            width: 300px;
-            border: 2px solid black;
+            height: 600px;
+            width: 350px;
         }
         .inner-box1{
-            height: 69%;
+            height: 70%;
             border: 2px solid black;
         }
         .inner-box2{
             height: 10%;
             border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
         }
         .inner-box3{
             height: 19%;
             border: 2px solid black;
+            display: flex;
+            margin-left: 30px;
+            margin-top: 30px;
+            
+            
+        }
+        .subgroup{
+            height: 100%;
+            width: 230px;
+            margin: auto;
+        }
+        .logo{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .input{
+            height: 50%;
+            width: 100%;
+        
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+      }
+        .links{
+            height: 28%;
+            width: 100%;
+            
+        }
+        #s{
+            width: 50%;
+            height: 10%;
+            margin-left:55px;
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: blue;
+            color: white;
+        
+        }
+        .l{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .f{
+            display: flex;
+            justify-content: center;
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        #im{
+            height: 9%;
+            width: 40%;
+
+        }
+        .p{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        footer{
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
         }
       
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box"></div>
+        <div class="box">
+            <img src="Screenshot (14).png" alt="">
+        </div>
         <div class="box">
             <div class="inner-box1">
                 <div class="subgroup">
-                <div class="logo"></div>
-                <div class="input"></div>
-                <div class="links"></div>
+                <div class="logo">
+                    <img src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo-2010-2013.png" height="100px" width="200px" alt="">
+                </div>
+                <div class="input">
+                    <input type="text"placeholder="phone number,username,or email"><br>
+                    <input type="text"placeholder="password"><br><br>
+                    <input type="submit"value="Log in" id="s">
+
+                </div>
+                <div class="links">
+                    <div class="l"><a href="">Log in with facebook</a></div><br>
+                    <div class="f"><a href="">forget password</a></div>
+                </div>
             </div></div>
-            <div class="inner-box2"></div>
-            <div class="inner-box3"></div>
+            <div class="inner-box2">Dont have an account?<a href="">Sign up</a>
+            </div>
+            <div class="p">Get the app</div>
+            <div class="inner-box3"id="im">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="">
+            </div>
         </div>
+       
     </div>
+    <footer> Thanku </footer>
+
 </body>
 </html>
