@@ -41,44 +41,46 @@ Regex(()=>{
     })
 })*/
 
-function getvegetable(callback){
+
+
+
+
+const vegetable=(callback)=>{
     setTimeout(()=>{
-        console.log("vegetable is get")
+        console.log("vegetable is got")
         callback();
-    })
-
-
-function getallo(callback){
-    setTimeout(()=>{
-        console.log("allo is get")
-        callback();
-    })
-
-    function getmakedouh(allo,makedouh, callback){
-        setTimeout(()=>{
-            console.log("douh is ready")
-            callback();
-        })
-    }
-    function makekulcha(allo,makedouh,makekulcha,callback){
-        setTimeout(()=>{
-            const kulcha=douh+"allo"
-        })
-    }
+    },5000)
 }
-    
+const allo=(callback)=>{
+    setTimeout(()=>{
+        console.log("allo is got")
+        callback();
+    },5000)
+}
+const dough=(callback)=>{
+    setTimeout(()=>{
+        console.log("dough is ready")
+        callback();
+    },5000)
+}
+const cheese=(callback)=>{
+    setTimeout(()=>{
+        console.log("cheese is ready")
+        callback();
+    },2000)
+}
+console.log("vegetable is get")
+vegetable(()=>{
+    console.log("allo is get")
+    allo(()=>{
+        console.log("dough is make")
+        dough(()=>{
+            console.log("chesse is make")
+            cheese(()=>{
 
-
-
-getallo((allo)=>{
-    getmakedough(allo,(makedough)=>{
-        getmakeallokulcha(allo,makedough,(makeallokulcha)=>{
-
-
-
-            console.log("burger is ready")
+            })
         })
     })
-)}
+})
 
    
