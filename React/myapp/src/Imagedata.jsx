@@ -17,6 +17,24 @@ const ImageData=[
         title:"pathan",
         desc:"n the film, Pathaan (Khan), an exiled RAW agent, works with ISI agent Rubina Mohsin (Padukone) to take down Jim (Abraham), a former RAW agent, who plans to attack India with a deadly virus."
     },
+    {
+        id:4,
+        imgsrc:"https://th.bing.com/th/id/OIP.hx-3vMACOJiJeb6lOR3ruQHaJp?pid=ImgDet&rs=1",
+        title:"pathan",
+        desc:"n the film, Pathaan (Khan), an exiled RAW agent, works with ISI agent Rubina Mohsin (Padukone) to take down Jim (Abraham), a former RAW agent, who plans to attack India with a deadly virus."
+    },
+    {
+        id:5,
+        imgsrc:"https://th.bing.com/th/id/OIP.hx-3vMACOJiJeb6lOR3ruQHaJp?pid=ImgDet&rs=1",
+        title:"pathan",
+        desc:"n the film, Pathaan (Khan), an exiled RAW agent, works with ISI agent Rubina Mohsin (Padukone) to take down Jim (Abraham), a former RAW agent, who plans to attack India with a deadly virus."
+    },
+    {
+        id:6,
+        imgsrc:"https://th.bing.com/th/id/OIP.hx-3vMACOJiJeb6lOR3ruQHaJp?pid=ImgDet&rs=1",
+        title:"pathan",
+        desc:"n the film, Pathaan (Khan), an exiled RAW agent, works with ISI agent Rubina Mohsin (Padukone) to take down Jim (Abraham), a former RAW agent, who plans to attack India with a deadly virus."
+    },
 
 ]
-export default ImageData;
+export default ImageData; 

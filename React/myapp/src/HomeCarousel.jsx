@@ -15,14 +15,14 @@ const HomeCrousle = () => {
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img src='https://th.bing.com/th/id/OIP.DBbaU-VxQA6Y8X8wG71QlQAAAA?pid=ImgDet&rs=1' text="Second slide" />
+      <img src='https://th.bing.com/th/id/R.1561587aef2154176057c566903f1abe?rik=62JUQIXxRe0wmQ&riu=http%3a%2f%2fwww.hdwallpaperspulse.com%2fwp-content%2fuploads%2f2016%2f05%2f28%2fcloudy-weather-beautiful-landscape-wallpaper.jpeg&ehk=m8inrles9xW4ihDzBAmV2YQxK9ImmesFSYnuux%2fOqNY%3d&risl=&pid=ImgRaw&r=0' text="Second slide" />
       <Carousel.Caption>
         <h3>Second slide label</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
-      <img src='https://th.bing.com/th/id/OIP.dbw5TeRTHcUDkp0HLqMzhwHaE7?pid=ImgDet&rs=1' text="Third slide" />
+      <img src='https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' text="Third slide" />
       <Carousel.Caption>
         <h3>Third slide label</h3>
         <p>
